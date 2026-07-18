@@ -1,0 +1,10 @@
+// Last updated: 7/18/2026, 11:58:15 AM
+class Solution {
+public:
+    int findGCD(vector<int>& nums) {
+    int n  =nums.size();
+    sort(nums.begin(),nums.end());
+    return gcd(nums[0],nums[n-1]);
+
+    }
+};
